@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1000956545945",
+    "firebase_url": "https://stayhealthy-f9a2a.firebaseio.com",
+    "project_id": "stayhealthy-f9a2a",
+    "storage_bucket": "stayhealthy-f9a2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000956545945:android:02f4d9f7c8b47c10",
+        "android_client_info": {
+          "package_name": "com.example.deebika.stayhealthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000956545945-b29j0ocn9thkdjhb861e5l4sof9eioa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArNLIELdDv11oLMbDwqiWwpyHp3U4RbXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

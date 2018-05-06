@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vinsimg3" >>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="52dp"
+
+        tools:layout_editor_absoluteY="81dp"
+        tools:ignore="MissingConstraints" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:layout_height="wrap_content"
+        android:text="Vitamin K refers to a group of fat-soluble vitamins that play a role in blood clotting, bone metabolism, and regulating blood calcium levels.
+
+The body needs vitamin K to produce prothrombin, a protein and clotting factor that is important in blood clotting and bone metabolism. People who use blood-thinning medications, such as warfarin, or Coumadin, should not start consuming additional vitamin K without first asking a doctor.Without vitamin K, the body cannot produce prothrombin, a clotting factor that is necessary for blood clotting and bone metabolism."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/b13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich Foods"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="282dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/b2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deficiency Causes"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="350dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/multiAutoCompleteTextView"
+        android:layout_toEndOf="@+id/b3" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deficiency Symptoms"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:ignore="MissingConstraints"
+        android:layout_alignTop="@+id/b2"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

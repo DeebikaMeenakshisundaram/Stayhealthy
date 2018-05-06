@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vinsimg3" >>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="81dp"
+        tools:ignore="MissingConstraints"
+        android:editable="false"
+        android:cursorVisible="false"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:layout_height="wrap_content"
+        android:text="Vitamin A plays a critical role in maintaining healthy eyes and vision, neurological function, healthy skin and hormonal/reproductive health, and its supports the lungs, liver, kidneys and digestive organs. What are good sources of vitamin A? Some to vitamin A foods include carrots, sweet potatoes, kale, berries, eggs, butter, and organ meats like beef or chicken liver."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich Foods"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="282dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/b2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deficiency Causes"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="350dp"
+        tools:ignore="MissingConstraints"
+        android:layout_alignTop="@+id/b3"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deficiency Symptoms"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:ignore="MissingConstraints"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/b2" />
+
+</RelativeLayout>
