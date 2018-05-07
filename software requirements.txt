@@ -1,0 +1,6 @@
+software requirements
+sdk version (min and max) : 18 and 23
+RAM (how much) : 5.79 Mb
+permission : To all users
+
+
